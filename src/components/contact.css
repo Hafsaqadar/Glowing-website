@@ -1,0 +1,23 @@
+.contact{
+    background-color: black;
+    padding: 30px;
+    color: rgb(227, 229, 218);
+ 
+
+   
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cloumns{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    gap: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}

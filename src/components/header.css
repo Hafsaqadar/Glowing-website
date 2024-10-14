@@ -1,0 +1,173 @@
+header{
+    background-color: rgb(9, 9, 31);
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+    margin-right: 100px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.btn1{
+    background-color: orangered;
+    margin-right: 90px;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 36px;
+   padding: 16px 26px;
+
+}
+
+.logo{
+    /* margin: auto; */
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.menu-icon{
+    font-size: 34px;
+    color: #fff;
+    display: none;
+    justify-content: flex-end;
+   position: absolute;
+   right: 60px;
+   cursor: pointer;
+   top: 10px;
+   
+
+
+
+}
+a:hover{
+    color: rgb(74, 15, 129);
+}
+
+
+
+
+
+
+
+
+/* media query */
+
+/* @media (max-width:1224px) {
+   .logo{
+    margin-right: 40px;
+   }
+
+   .btn1{
+       
+       
+        margin-right: 30px;
+   }
+
+   .menu-icon{
+    display: none;
+   }
+
+
+   ul, .nav-links{
+    display: none;
+      background-color: #b51818;
+      height: 60vh;
+      width: 350px;
+      flex-direction: column;
+      border-radius: 20px;
+     position: absolute;
+     right: -80px;
+     top: 120px;
+     padding: 20px;
+     
+    
+      
+     }
+     a{
+      color: #000;
+     }
+  
+     .logo{
+      margin-right: auto;
+     }
+  
+     .nav-links .active{
+      display: flex;
+     }
+  
+
+
+} */
+
+
+
+/* Media query */
+@media (max-width: 1308px) {
+   .menu-icon {
+       display: block;
+   }
+
+   .btn1 {
+       display: none;
+   }
+
+   .nav-links {
+       display: none; /* Initially hidden */
+       background-color: #b51818;
+       /* height: 60vh; */
+       width: 350px;
+       flex-direction: column;
+       border-radius: 20px;
+       position: absolute;
+       right: -90px; /* Adjusted to align properly */
+       top: 103px;
+       padding: 30px;
+      
+       }
+    
+    
+
+   
+
+   .nav-links.active {
+       display: flex; /* Show when active */
+       
+   }
+
+  
+   .logo {
+       margin-right: auto;
+   }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

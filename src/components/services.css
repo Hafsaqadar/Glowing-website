@@ -1,0 +1,44 @@
+.second-section{
+    background-color: rgb(236, 231, 231);
+    padding: 60px;
+   
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 16px;
+    height: 300px;
+    background-color: #cecaca;
+   
+    
+  }
+
+  .items{
+    height: auto;
+    width: 100%;
+   
+  }
+
+  .card-container{
+   
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+   
+  
+    
+    }
+  
+     h2 {
+    position: absolute;
+     bottom: -260px;
+     font-size: 18px;
+     
+    }
